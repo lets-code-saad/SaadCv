@@ -1,0 +1,11 @@
+.educationSection h1{
+    text-align:center;
+    font-size: 40px;
+    color:white;
+}
+.educationTable{
+    color:white;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+}
