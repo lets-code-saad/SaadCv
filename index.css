@@ -43,7 +43,7 @@ border-bottom:2px solid #ff1d58;
 .heroSection {
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* flex-wrap:wrap; */
 }
