@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:767px){
+@media (min-width:320px) and (max-width:375px){
     body{
         margin:30px;
     }
@@ -14,6 +14,12 @@
         display:block;
         color: white!important;
         font-size:40px;
+    }
+    .heroSection .leftSection h1{
+        font-size: 50px;
+    }
+    .heroSection .leftSection p{
+        font-size: 20px;
     }
     .headerSection{
         /* position: relative; */
@@ -31,7 +37,7 @@
         display:none;
         position:absolute;
         left:0;
-        top:20vh;
+        top:120px;
         background: white;
         height:1000px;
 width:1000px;
@@ -42,8 +48,70 @@ width:1000px;
     display:flex;
     flex-direction: column;
     position:absolute;
-    top:5vh;
-    left:20vh;
+    top:5px;
+    left:60px;
+    gap:50px;
+    font-size:30px;
+    text-align: center;
+    }
+    .responsiveNavItems a{
+    text-decoration:none;
+    color:black;
+    cursor: pointer;
+    }
+}
+@media (min-width:376px) and (max-width:767px){
+    body{
+        margin:30px;
+    }
+    .navBar{
+        display:none;
+    }
+    .navItems li a{
+        display:none;
+        display:flex;
+        flex-direction:column;
+    }
+    .hamburgerMenu {
+        display:block;
+        color: white!important;
+        font-size:40px;
+    }
+    .heroSection .leftSection h1{
+        font-size: 50px;
+    }
+    .heroSection .leftSection p{
+        font-size: 20px;
+    }
+    .headerSection{
+        /* position: relative; */
+        display:none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .responsiveHeader{
+        position: relative;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .responsiveNav{
+        display:none;
+        position:absolute;
+        left:0;
+        top:120px;
+        background: white;
+        height:1000px;
+width:1000px;
+    }
+    .responsiveNavItems {
+    list-style: none;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:5px;
+    left:140px;
     gap:50px;
     font-size:30px;
     text-align: center;
