@@ -1,4 +1,4 @@
-@media (min-width:360px) and (max-width:768px){
+@media (min-width:320px) and (max-width:767px){
     body{
         margin:30px;
     }
@@ -16,10 +16,16 @@
         font-size:40px;
     }
     .headerSection{
-        position: relative;
-        display:flex;
+        /* position: relative; */
+        display:none;
         justify-content: space-between;
         align-items: center;
+    }
+    .responsiveHeader{
+        position: relative;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .responsiveNav{
         display:none;
@@ -49,11 +55,14 @@ width:1000px;
     }
 }
 
-@media (min-width:769px){
+@media (min-width:768px){
     .hamburgerMenu{
         display:none;
     }
     .responsiveNav{
+        display:none;
+    }
+    .responsiveHeader{
         display:none;
     }
 }

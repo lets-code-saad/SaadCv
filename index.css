@@ -52,6 +52,8 @@ border-bottom:2px solid #ff1d58;
 }
 .leftSection p{
     color:white;
+    white-space: normal;
+    word-wrap: break-word;
 font-size:15px;
 width:500px;
 }
